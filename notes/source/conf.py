@@ -340,6 +340,6 @@ epub_exclude_files = ['search.html']
 intersphinx_mapping = {'http://docs.python.org/': None}
 
 # chaoc: Add the theme
-# sys.path.append(os.path.abspath('_themes'))
-# html_theme_path = ['_themes']
-# html_theme = 'flask'
+sys.path.append(os.path.abspath('_themes'))
+html_theme_path = ['_themes',]
+html_theme = 'flask'
