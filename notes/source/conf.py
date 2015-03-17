@@ -339,8 +339,7 @@ epub_exclude_files = ['search.html']
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {'http://docs.python.org/': None}
 
-
 # chaoc: Add the theme
-# sys.path.append(os.path.abspath('_themes'))
+sys.path.append(os.path.abspath('_themes'))
 html_theme_path = ['_themes']
 html_theme = 'flask'
