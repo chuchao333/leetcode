@@ -342,4 +342,4 @@ intersphinx_mapping = {'http://docs.python.org/': None}
 # chaoc: Add the theme
 sys.path.append(os.path.abspath('_themes'))
 html_theme_path = ['_themes',]
-html_theme = 'flask'
+html_theme = 'kr'
