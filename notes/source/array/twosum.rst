@@ -1,8 +1,7 @@
 Two Sum
 =======
 
-Cpp Code
---------
+The solution in cpp below
 
     .. literalinclude:: ../../../cpp/twosum.cpp
        :language: c++
